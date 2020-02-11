@@ -1,8 +1,9 @@
-#!/usr/bin/python3
+#!/usr/bin/env bash
 
 
-function create(): {
+function create() {
    python3 create.py
-    echo $1    
-
+    echo $1   
 }
+
+
