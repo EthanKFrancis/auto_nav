@@ -8,4 +8,4 @@ function create() {
 }
 
 
-create "$arg1"  "$arg2"
+function create "$arg1"  "$arg2"
