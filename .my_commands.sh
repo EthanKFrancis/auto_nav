@@ -2,7 +2,7 @@
 
 function create() {
     cd Desktop/code/automation/auto_nav_test 
-    echo python3 create.py ' ' $1
+    python3 create.py echo ' ' $1
     
 
 }
