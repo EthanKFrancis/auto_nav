@@ -3,7 +3,7 @@
 create() {
     cd Desktop/code/automation/auto_nav_test 
         python3 create.py 
-            return echo $1
+            echo $1
     
 
 }
