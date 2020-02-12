@@ -3,7 +3,7 @@
 function create() $arg1{
     cd Desktop/code/automation/auto_nav_test 
         python3 create.py 
-            echo " $1"
+            echo ' ' $1
             return 1
     
 }
