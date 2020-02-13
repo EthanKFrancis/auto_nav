@@ -1,8 +1,12 @@
 #! /usr/bin/env python3
 
-function create () {
+var1="$1"
+create="$var1"
+create() {
     cd /Desktop/code/automation/auto_nav_test && python3 create.py  
-    echo $1 $2 ' > echo $1 $2'
+    echo "$create"
+    return $1
 
 }
+
 
